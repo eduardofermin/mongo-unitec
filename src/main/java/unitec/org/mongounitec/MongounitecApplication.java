@@ -16,7 +16,7 @@ public class MongounitecApplication implements CommandLineRunner{
 
     @Override
     public void run(String... strings) throws Exception {
-     Mensajito mensa=new Mensajito("primero", "Mi primer mensajito");
+     Mensajito mensa=new Mensajito("segundo", "Mi segundo mensajito");
      
      //repoMensa.save(mensa);
         System.out.println("Mensaje guardado");
